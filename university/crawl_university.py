@@ -38,7 +38,6 @@ try:
     #check page
     if len(reader) <= 0: index_page = 0
     else : index_page=reader[len(reader)-1][1]
-
     for page in range(int(index_page),6):
         headers = {'x-requested-with':'XMLHttpRequest'}
         files = {'DiemchuanForm[page]': page ,
@@ -54,11 +53,10 @@ try:
         content =requests.post(url ,headers=headers ,data=files)
         soup = BeautifulSoup(content.text, 'html.parser')
         list_tag = soup.find('div', class_='scroll-result row_list').find_all('a', class_='name')
-
         for a_tag in list_tag:
             url =  'https://kenhtuyensinh.com.vn/'+ a_tag.get('href')
             flag = False
-
+           
             # check url 
             for index in range(len(reader)):
                 if url in reader[index]:
@@ -79,7 +77,7 @@ try:
                         name_abbreviation = div_tag.find('p', class_='cate-name2').get_text()
                     except :
                         name_abbreviation = 'null'
-
+                  
                     #check city       
                     city = soup.find('div', class_='col-lg-12').find_all('p', class_='address')[1].find('a').get_text()     
                     for row in CITY :
@@ -88,7 +86,7 @@ try:
                             break
                         else :
                             city_index = None   
-
+                   
                     # insert data 
                     try:
                         cursor = connect_db.cursor()
@@ -100,14 +98,11 @@ try:
                         connect_db.commit()
                     except mysql.connector.Error as error :
                         connect_db.rollback()
-
                         with open('url_error.csv', 'a',newline='') as url_error:
                             write_error = csv.writer(url_error)
                             write_error.writerow([url,page])
                         logger.warning(error)              
-                        logger.error('error insert :'+url)
-                        
-                       
+                        logger.error('error insert :'+url)                                               
                 except Exception as e:
                     with open('url_error.csv', 'a',newline='') as url_error:
                         write_error = csv.writer(url_error)
