@@ -10,7 +10,7 @@ def converterHtml(link):
     return soup_html
 
 def writeFile(href, pageCount):
-    f = csv.writer(open('company_data.csv', 'w'))
+    f = csv.writer(open('page_url.csv', 'w'))
     f.writerow([href, pageCount])
 
 def writerErrorFile(linkError):
@@ -18,7 +18,7 @@ def writerErrorFile(linkError):
     f.writerow([linkError])
 
 def readFile():
-    csvfile = open("company_data.csv", "r")
+    csvfile = open("page_url.csv", "r")
     table = csv.reader(csvfile)
     reader = []
     for row in table:
