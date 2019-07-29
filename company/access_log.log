@@ -1,0 +1,8 @@
+[INFO] [2019-07-30 01:26:50,920] - Run cawldata company
+[ERROR] [2019-07-30 01:26:51,988] - no connection :2003: Can't connect to MySQL server on '192.168.99.100:3306' (10061 No connection could be made because the target machine actively refused it)
+[INFO] [2019-07-30 01:27:47,812] - Run cawldata company
+[ERROR] [2019-07-30 01:27:48,833] - no connection :2003: Can't connect to MySQL server on '192.168.99.100:3306' (10061 No connection could be made because the target machine actively refused it)
+[INFO] [2019-07-30 01:29:11,177] - Run cawldata company
+[INFO] [2019-07-30 01:29:11,312] - Connected to MySQL database... MySQL Server version on 5.7.26
+[WARNING] [2019-07-30 01:29:55,682] - error unique_together :http://www.thongtincongty.com/tinh-ben-tre/?page=2
+[INFO] [2019-07-30 01:30:01,554] - close the connection database
