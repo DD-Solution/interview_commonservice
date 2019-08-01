@@ -35,7 +35,7 @@ def getConnection():
     return connection
 
 def getLogging():
-    LOG_FORMAT = "[%(levelname)s] [%(asctime)s] - %(message)s"
+    LOG_FORMAT = "%(asctime)s [%(levelname)s]- %(message)s"
     logging.basicConfig(filename = 'access_log.log',
                         level = logging.DEBUG,
                         format = LOG_FORMAT)

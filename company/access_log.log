@@ -1,2 +1,10 @@
-[INFO] [2019-08-01 02:39:13,076] - Run cawldata company
-[INFO] [2019-08-01 02:39:13,175] - Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-02 02:02:55,590 [INFO]- ========RUN CRAWL DATA=========
+2019-08-02 02:02:55,684 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-02 02:02:58,489 [INFO]- close the connection database
+
+2019-08-02 02:03:02,589 [INFO]- ========RUN CRAWL DATA=========
+2019-08-02 02:03:02,687 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-02 02:03:04,387 [INFO]- close the connection database
+
+
+
