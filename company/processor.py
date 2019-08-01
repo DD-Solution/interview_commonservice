@@ -9,9 +9,9 @@ def converterHtml(link):
     soup_html = BeautifulSoup(page, 'html.parser')
     return soup_html
 
-def writeFile(href, pageCount):
+def writeFile(city_href,county_herf, pageCount):
     f = csv.writer(open('page_url.csv', 'w'))
-    f.writerow([href, pageCount])
+    f.writerow([city_href, county_herf, pageCount])
 
 def writerErrorFile(linkError):
     f = csv.writer(open('error_url.csv', 'a', newline=''))
@@ -41,3 +41,9 @@ def getLogging():
                         format = LOG_FORMAT)
     logger = logging.getLogger()
     return logger
+
+def joinSquence(string):
+    split_str = string.split('-')
+    string_one = '-'
+    string_two = [split_str[2],split_str[1], split_str[0]]
+    return string_one.join(string_two)

@@ -2,38 +2,41 @@ import sys, csv, logging, datetime
 import requests
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
-from processor import readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile
+from processor import readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile, joinSquence
 from constant import CITY
 import mysql.connector
 from mysql.connector import Error, errors
 from mysql.connector import errorcode
 
 
-url = 'http://www.thongtincongty.com/'
+url = 'https://congtydoanhnghiep.com/'
 soup = converterHtml(url)
-list_url = soup.find('div', class_='list-group').find_all('a')
+list_city = soup.find('ul', class_='list-group').find_all('li',class_='list-group-item')
 logger = getLogging()
 logger.info('Run cawldata company')
 # take page, href, city_index in file
 if readFile():
-    page_in_file = readFile()[0][1]
-    url_in_file = readFile()[0][0]
-    for i in range(0,64):
-        if list_url[i].get('href') == url_in_file: 
-            href_cuont = i 
+    city_url_file = readFile()[0][0]
+    county_url_file = readFile()[0][1]
+    page_county_file = readFile()[0][2]
+    for i in range(0,len(list_city)):
+        if list_city[i].find('a').get('href') == city_url_file: 
+            city_cuont = i 
             break
-        else : href_cuont = 0
+        else : city_cuont = 0
 else:
-    url_in_file = ''
-    href_cuont = 0
+    city_url_file = ''
+    county_url_file = ''
+    city_cuont = 0
 try:
     connection = getConnection()
     if (connection.is_connected()):
         db_Info = connection.get_server_info()
         logger.info('Connected to MySQL database... MySQL Server version on '+db_Info)
     cursor = connection.cursor()
-    for tag_a in list_url[href_cuont:64] :
-        city = tag_a.get_text()
+    # data city
+    for tag_a in list_city[city_cuont:len(list_city)] :
+        city = tag_a.find('a').get_text()
         # transfer city to city index
         for row_city in CITY :
             if city == row_city[1] : 
@@ -41,55 +44,83 @@ try:
                 break
             else :
                 city_index = None 
-        # check href
-        if url_in_file == tag_a.get('href') :
-            pageWeb = int(page_in_file) + 1
-        else:
-            pageWeb = 1
-        pageCount = pageWeb
-        while pageCount > 0:
-            url_city = tag_a.get('href') +'?page=%d'%(pageCount)
-            soup = converterHtml(url_city)
-            pageCount = pageCount + 1
-            datetime_now = datetime.datetime.now()
-            try:
-                list_div = soup.find('div', class_='col-xs-12 col-sm-9').find_all('div', class_='search-results')
-                writeFile(tag_a.get('href'), pageCount)
-                for tag_div in list_div:
-                    name = tag_div.find('a').get_text()
-                    address = tag_div.find('p').get_text().split('Địa chỉ:')[1]
-                    try:
-                        # insert data
-                        sql ="""insert into job_company(name,is_ot, nation, is_outsourcing, 
-                                is_product,is_fake, is_active, created, updated) 
-                                values (%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
-                        cursor.execute(sql,(name,0,'VN',0,0,0,1,datetime_now,datetime_now))
-                        connection.commit()
-                        sql_branch = """insert into job_companybranch(city, address, company_id) 
-                                        values (%s, %s, %s)"""
-                        cursor.execute(sql_branch,(city_index, address, cursor.lastrowid))
-                        connection.commit()               
-                    except mysql.connector.Error as error :
-                        try :
-                            # query = "select id from job_company where name=%s"
-                            # result  = cursor.execute(query,(name,))
-                            # id_branch = cursor.fetchone()[0]                            
-                            # sql_branch = """insert into job_companybranch(city, address, company_id) 
-                            #                 values(%s,%s,%s)"""
-                            sql_branch = """insert into job_companybranch(city, address, company_id) 
-                                            select %s,%s,id from job_company where name=%s"""
-                            cursor.execute(sql_branch,(city_index, address, name,))
-                            connection.commit()
-                            print(name)
-                        except Error as error :
-                            connection.rollback()
-                            logger.warning('error unique_together :'+url_city)
-                            logger.error(error)
-            except Exception as e:
-                writerErrorFile(url_city)
-                logger.error(str(e))
-                break
-
+        # Get the county data of the city 
+        city_href = tag_a.find('a').get('href')
+        soup_county = converterHtml(city_href)
+        list_county = soup_county.find('ul', class_='list-group').find_all('li',class_='list-group-item')
+        # check in which district
+        for i in range(0, len(list_county)):
+            if county_url_file == list_county[i].find('a').get('href'):
+                county_cuont = i
+            else:
+                county_cuont = 0
+        for county in list_county[county_cuont:len(list_county)] :
+            county_href = county.find('a').get('href')
+            # check href county
+            if county_url_file == county.find('a').get('href') :
+                pageWeb = int(page_county_file) 
+            else:
+                pageWeb = 1
+            pageCount = pageWeb
+            while pageCount < 3:
+                url_county =  county_href +'/trang-%d'%(pageCount)
+                try:
+                    soup = converterHtml(url_county)
+                    pageCount = pageCount + 1
+                    list_div = soup.find('div', class_='col-sm-8 table-striped').find_all('article')
+                    writeFile(city_href,county_href,pageCount)
+                    for tag_div in list_div:
+                        try:
+                            url = tag_div.find('a').get('href')
+                            soup_url = converterHtml(url)
+                            information = soup_url.find('div', class_='row').find_all('table', class_='table last-left')
+                            name_company = soup_url.find('td').get_text()
+                            representative = information[0].text.split('Chủ sở hữu:')[1].split('\n')[0]
+                            tax_code = int(information[0].text.split('Mã số thuế:')[1].split('\n')[0].strip())
+                            address = information[1].find('td').get_text()
+                            status = information[2].find('td').text
+                            operate = information[2].find_all('td')[2].text
+                            date_operate = joinSquence(operate)
+                            company_type = information[3].find('td').text.replace('\n', '')
+                            try:
+                                phone_number = int(information[1].find_all('td')[1].text)
+                            except :
+                                phone_number = None
+                            try:
+                            # insert data
+                                sql ="""insert into companies_company(name, tax_code, company_type,
+                                        representative, date_operate, status, phone_number) 
+                                        values (%s,%s,%s,%s,%s,%s,%s)"""
+                                insert_tuple  = (name_company, tax_code, company_type,representative, date_operate, status, phone_number)
+                                cursor.execute(sql, insert_tuple)
+                                connection.commit()
+                                sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
+                                                values (%s, %s, %s, %s)"""
+                                cursor.execute(sql_branch,(city_index, address, url, cursor.lastrowid))
+                                connection.commit()               
+                            except mysql.connector.Error as error :
+                                # if 
+                                try :
+                                    # query = "select id from job_company where name=%s"
+                                    # result  = cursor.execute(query,(name,))
+                                    # id_branch = cursor.fetchone()[0]                            
+                                    # sql_branch = """insert into job_companybranch(city, address, company_id) 
+                                    #                 values(%s,%s,%s)"""
+                                    sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
+                                                    select %s ,%s ,%s ,id from job_company where name = %s"""
+                                    cursor.execute(sql_branch,(city_index, address, url, name_company,))
+                                    connection.commit()
+                                except Error as error :
+                                    connection.rollback()
+                                    logger.warning('error unique_together :'+url)
+                                    logger.error(error)
+                        except Exception as error:
+                            writerErrorFile(url)
+                            logger.error('url :'+url+' error : '+error) 
+                                               
+                except Exception as e:
+                    logger.error(str(e))
+                    break
 except Error as e:
     logger.error('no connection :'+str(e))
 finally:
@@ -98,5 +129,3 @@ finally:
         connection.close()
     logger.info('close the connection database')
 
-
-    
