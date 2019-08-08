@@ -10,7 +10,6 @@ import mysql.connector
 from mysql.connector import Error, errors
 from mysql.connector import errorcode
 
-
 url = 'https://congtydoanhnghiep.com/'
 soup = converterHtml(url)
 list_city = soup.find('ul', class_='list-group').find_all('li',class_='list-group-item')
@@ -63,7 +62,7 @@ try:
                 county_cuont = 0
         for county in list_county[county_cuont:len(list_county)] :
             county_href = county.find('a').get('href')
-
+            logger.info('contry_href :'+county_href)
             # check href county
             if county_url_file == county.find('a').get('href') :
                 pageWeb = int(page_county_file) 
@@ -71,7 +70,7 @@ try:
                 pageWeb = 1
             pageCount = pageWeb
             while pageCount > 0:
-                url_county =  county_href +'/trang-%d'%(pageCount)
+                url_county = county_href +'/trang-%d'%(pageCount)
                 try:
                     soup = converterHtml(url_county)
                     pageCount = pageCount + 1
@@ -90,52 +89,53 @@ try:
                             operate = information[2].find_all('td')[2].text
                             date_operate = joinSquence(operate)
                             try:
-                                company_type = information[3].text.split('Ngành nghề chính:')[1].replace('\n', '')
+                                company_type = information[3].text.split('Ngành nghề chính:')[1].split('Ngành nghề kinh doanh:')[0].replace('\n', '')
                             except :
                                 company_type = None                          
                             try:
-                                phone_number = int(information[1].find_all('td')[1].text)
+                                phone_number = information[1].find_all('td')[1].text
                             except :
                                 phone_number = None
                             try:
                             # insert data
-                                sql ="""insert into companies_company(name, tax_code, company_type,
+                                sql ="""insert into company(name, tax_code, company_type,
                                         representative, date_operate, status, phone_number) 
                                         values (%s,%s,%s,%s,%s,%s,%s)"""
                                 insert_tuple  = (name_company, tax_code, company_type,representative, date_operate, status, phone_number)
                                 cursor.execute(sql, insert_tuple)
                                 connection.commit()
-                                sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
+                                sql_branch = """insert into companybranch(city, address, crawl_url, company_id) 
                                                 values (%s, %s, %s, %s)"""
                                 cursor.execute(sql_branch,(city_index, address, url, cursor.lastrowid))
-                                connection.commit()               
-                            except mysql.connector.Error as error :
+                                connection.commit()                           
+                            except Exception as error :
+                                writerErrorFile(url,county_href,pageCount)                                
+                                logger.error('error :'+str(error)+'url :'+url)
                                 try :
-                                    # query = "select id from job_company where name=%s"
-                                    # result  = cursor.execute(query,(name,))
-                                    # id_branch = cursor.fetchone()[0]                            
-                                    # sql_branch = """insert into job_companybranch(city, address, company_id) 
-                                    #                 values(%s,%s,%s)"""
                                     sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
                                                     select %s ,%s ,%s ,id from job_company where name = %s"""
                                     cursor.execute(sql_branch,(city_index, address, url, name_company,))
                                     connection.commit()
                                 except Error as error :
                                     connection.rollback()
-                                    logger.warning('error unique_together :'+url)
+                                    logger.warning('unique_together :'+url)
                                     logger.error(error)
                         except Exception as error:
-                            writerErrorFile(url)
-                            logger.error('url :'+url+' error : '+error)                                               
+                            writerErrorFile(url,county_href,pageCount)
+                            logger.error('url :'+url+' error : '+str(error))
+                except TimeoutError as er:
+                    logger.error(str(er)+'-url'+url_county)
+                    continue                                               
                 except Exception as e:
                     logger.error(str(e))
                     break
 except Error as e:
     logger.error('no connection :'+str(e))
+except Exception as error:
+    logger.error(str(error))
 finally:
     if(connection.is_connected()):
         cursor.close()
         connection.close()
     logger.info('close the connection database\n')
-
 
