@@ -1074,3 +1074,18 @@
 2019-08-13 09:46:45,872 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hai-ba-trung
 2019-08-13 10:42:30,698 [INFO]- HTTP Error 502: Bad Gateway
 2019-08-13 10:42:30,700 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-ba-dinh
+2019-08-13 14:47:33,912 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-13 14:47:33,912 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hoan-kiem
+2019-08-13 17:39:19,322 [INFO]- close the connection databas
+
+2019-08-13 18:10:48,992 [INFO]- ========RUN CRAWL DATA=========
+2019-08-13 18:10:49,008 [INFO]- Connected to MySQL database
+2019-08-13 18:10:49,008 [INFO]- 1 :Hà Nội
+2019-08-13 18:10:49,445 [INFO]- 2 :contry_href :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong
+2019-08-13 18:10:49,445 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-43
+2019-08-13 18:10:58,719 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-44
+2019-08-13 18:11:07,700 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-45
+2019-08-13 18:11:16,763 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-46
+2019-08-13 18:11:28,400 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-47
+2019-08-13 18:11:37,777 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-48
+2019-08-13 18:11:46,297 [INFO]- 3 :https://ha-noi.congtydoanhnghiep.com/quan-ha-dong/trang-49

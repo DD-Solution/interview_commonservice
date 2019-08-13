@@ -1,9 +1,10 @@
-import sys, csv, logging, datetime
+# -*- coding: utf-8 -*-
+import sys, csv, logging, datetime, re
 import requests
 from bs4 import BeautifulSoup
-from urllib.request import Request, urlopen
+from urllib.request import Request, urlopen,HTTPError
 from processor import (
-    readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile, joinSquence
+    readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile, joinSquence, writerPageError
 )
 from constant import CITY
 import mysql.connector
@@ -15,6 +16,7 @@ soup = converterHtml(url)
 list_city = soup.find('ul', class_='list-group').find_all('li',class_='list-group-item')
 logger = getLogging()
 logger.info('========RUN CRAWL DATA=========')
+regex = r'^[0-9\(\)\ /\+\-]*$'
 # take page, href, city_index in file
 if readFile():
     city_url_file = readFile()[0][0]
@@ -33,13 +35,13 @@ try:
     connection = getConnection()
     if (connection.is_connected()):
         db_Info = connection.get_server_info()
-        logger.info('Connected to MySQL database... MySQL Server version on '+db_Info)
+        logger.info('Connected to MySQL database')
     cursor = connection.cursor()
 
     # data city
     for tag_a in list_city[city_cuont:len(list_city)] :
         city = tag_a.find('a').get_text()
-
+        logger.info('1 :'+city)
         # transfer city to city index
         for row_city in CITY :
             if city == row_city[1] : 
@@ -62,7 +64,7 @@ try:
                 county_cuont = 0
         for county in list_county[county_cuont:len(list_county)] :
             county_href = county.find('a').get('href')
-            logger.info('contry_href :'+county_href)
+            logger.info('2 :contry_href :'+county_href)
             # check href county
             if county_url_file == county.find('a').get('href') :
                 pageWeb = int(page_county_file) 
@@ -71,6 +73,7 @@ try:
             pageCount = pageWeb
             while pageCount > 0:
                 url_county = county_href +'/trang-%d'%(pageCount)
+                logger.info('3 :'+url_county)
                 try:
                     soup = converterHtml(url_county)
                     pageCount = pageCount + 1
@@ -93,7 +96,8 @@ try:
                             except :
                                 company_type = None                          
                             try:
-                                phone_number = information[1].find_all('td')[1].text
+                                phone_regex = information[1].find_all('td')[1].text
+                                phone_number = re.search(regex,phone_regex).group()
                             except :
                                 phone_number = None
                             try:
@@ -107,10 +111,8 @@ try:
                                 sql_branch = """insert into companybranch(city, address, crawl_url, company_id) 
                                                 values (%s, %s, %s, %s)"""
                                 cursor.execute(sql_branch,(city_index, address, url, cursor.lastrowid))
-                                connection.commit()                           
-                            except Exception as error :
-                                writerErrorFile(url,county_href,pageCount)                                
-                                logger.error('error :'+str(error)+'url :'+url)
+                                connection.commit() 
+                            except errors.IntegrityError as error:
                                 try :
                                     sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
                                                     select %s ,%s ,%s ,id from job_company where name = %s"""
@@ -118,21 +120,27 @@ try:
                                     connection.commit()
                                 except Error as error :
                                     connection.rollback()
-                                    logger.warning('unique_together :'+url)
-                                    logger.error(error)
+                                    writerErrorFile(url,county_href,pageCount)
+                                    logger.error('4 :'+str(error)+'-'+url)
+                            except Exception as error :
+                                writerErrorFile(url,county_href,pageCount)                                
+                                logger.error('5 :error :'+str(error)+'-url :'+url)     
                         except Exception as error:
                             writerErrorFile(url,county_href,pageCount)
-                            logger.error('url :'+url+' error : '+str(error))
-                except TimeoutError as er:
-                    logger.error(str(er)+'-url'+url_county)
-                    continue                                               
-                except Exception as e:
-                    logger.error(str(e))
-                    break
-except Error as e:
-    logger.error('no connection :'+str(e))
+                            logger.error('6 :error :'+str(error)+'-url :'+url)
+                except TimeoutError as error:
+                    writerPageError(url_county)
+                    logger.error('7 :'+str(error)+'-url'+url_county)
+                    continue         
+                except HTTPError as error:
+                    logger.info('8 :'+str(error))     
+                    break                                 
+                except Exception as error:
+                    logger.error('9 :'+str(error))
+except Error as error:
+    logger.error('10 :no connection :'+str(error))
 except Exception as error:
-    logger.error(str(error))
+    logger.error('11 :'+str(error))
 finally:
     if(connection.is_connected()):
         cursor.close()

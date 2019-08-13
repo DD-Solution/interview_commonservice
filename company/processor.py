@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys, csv, logging
 import mysql.connector
 from bs4 import BeautifulSoup
@@ -6,13 +7,13 @@ from retry import retry
 
 def getLogging():
     LOG_FORMAT = "%(asctime)s [%(levelname)s]- %(message)s"
-    logging.basicConfig(filename = 'access_log.log',
+    logging.basicConfig(handlers=[logging.FileHandler('access_log.log', 'a', 'utf-8')],
                         level = logging.DEBUG,
                         format = LOG_FORMAT)
     logger = logging.getLogger()
     return logger
 
-@retry(TimeoutError,tries=3, delay=60, logger=getLogging())
+# @retry(TimeoutError,tries=3, delay=60, logger=getLogging())
 def converterHtml(link):
     req = Request(link, headers={'User-Agent': 'Mozilla/5.0'})
     page = urlopen(req).read()
@@ -22,6 +23,10 @@ def converterHtml(link):
 def writeFile(city_href,county_herf, pageCount):
     f = csv.writer(open('page_url.csv', 'w'))
     f.writerow([city_href, county_herf, pageCount])
+
+def writerPageError(url_county):
+    f = csv.writer(open('page_error.csv', 'a', newline=''))
+    f.writerow([url_county])
 
 def writerErrorFile(linkError,city_href,pageCount):
     f = csv.writer(open('error_url.csv', 'a', newline=''))
