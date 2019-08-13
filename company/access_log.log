@@ -1,10 +1,1076 @@
-2019-08-02 02:02:55,590 [INFO]- ========RUN CRAWL DATA=========
-2019-08-02 02:02:55,684 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
-2019-08-02 02:02:58,489 [INFO]- close the connection database
+2019-08-02 13:05:40,625 [INFO]- ========RUN CRAWL DATA=========
+2019-08-02 13:05:40,647 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-02 13:19:28,460 [INFO]- ========RUN CRAWL DATA=========
+2019-08-02 13:19:28,476 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-02 21:03:23,515 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-02 21:19:28,097 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/van-phong-dai-dien-cong-ty-tnhh-dich-vu-van-tai-anh-quoc
+2019-08-02 21:19:28,097 [ERROR]- 1406 (22001): Data too long for column 'address' at row 31211
+2019-08-03 01:58:04,517 [ERROR]- can only concatenate str (not "HTTPError") to str
+2019-08-03 02:14:53,739 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-cong-ty-tnhh-altwin-vina-tai-thanh-pho-ho-chi-minh
+2019-08-03 02:14:53,739 [ERROR]- 1406 (22001): Data too long for column 'address' at row 50611
+2019-08-03 02:18:04,443 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thien-hoa-su
+2019-08-03 02:18:04,443 [ERROR]- 1406 (22001): Data too long for column 'address' at row 50870
+2019-08-06 11:19:15,668 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 11:19:15,694 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 11:20:14,213 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:20:16,520 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:20:20,943 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:20:22,462 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:20:22,535 [INFO]- close the connection database
 
-2019-08-02 02:03:02,589 [INFO]- ========RUN CRAWL DATA=========
-2019-08-02 02:03:02,687 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
-2019-08-02 02:03:04,387 [INFO]- close the connection database
+2019-08-06 11:39:55,445 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 11:39:55,463 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 11:41:11,609 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:41:15,338 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:41:24,093 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:41:27,231 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 11:41:28,844 [INFO]- close the connection database
 
+2019-08-06 12:22:42,401 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 12:22:42,426 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 12:24:02,228 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 12:24:05,498 [ERROR]- can only concatenate str (not "TypeError") to str
+2019-08-06 12:24:11,962 [INFO]- close the connection database
 
+2019-08-06 12:29:36,934 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 12:29:36,971 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 12:31:19,081 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-tri-nguyen-gia error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 12:31:19,082 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-tri-nguyen-gia
+2019-08-06 12:31:19,082 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 12:32:51,730 [INFO]- close the connection database
 
+2019-08-06 12:41:48,996 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 12:41:49,008 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 12:53:41,746 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-ky-thuat-va-moi-truong-tri-viet error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 12:53:41,748 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-ky-thuat-va-moi-truong-tri-viet
+2019-08-06 12:53:41,748 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 12:57:07,202 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-in-quang-cao-chu-du error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 12:57:07,202 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-in-quang-cao-chu-du
+2019-08-06 12:57:07,202 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 12:58:13,100 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 12:58:13,112 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 12:58:14,761 [INFO]- https://ho-chi-minh.congtydoanhnghiep.com/quan-binh-thanh
+2019-08-06 12:59:48,035 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 12:59:48,053 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 12:59:49,143 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-binh-thanh
+2019-08-06 13:00:35,041 [INFO]- close the connection database
+
+2019-08-06 13:01:27,085 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 13:01:27,096 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 13:01:28,447 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-binh-thanh
+2019-08-06 13:11:37,069 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-va-kiem-dinh-xay-dung-van-thanh-dat error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:11:37,069 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-va-kiem-dinh-xay-dung-van-thanh-dat
+2019-08-06 13:11:37,069 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:13:53,424 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-truc-vot-cuu-ho-hi-tram error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:13:53,424 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-truc-vot-cuu-ho-hi-tram
+2019-08-06 13:13:53,424 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:17:34,326 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-thuong-mai-minh-ho error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:17:34,326 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-thuong-mai-minh-ho
+2019-08-06 13:17:34,326 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:31:47,893 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-xay-dung-kien-long error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:31:47,893 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-xay-dung-kien-long
+2019-08-06 13:31:47,893 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:36:19,962 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-tam-anh error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:36:19,962 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-tam-anh
+2019-08-06 13:36:19,962 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:43:20,717 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-da-yen error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:43:20,717 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-da-yen
+2019-08-06 13:43:20,717 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:48:21,306 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-va-dich-vu-dai-quang-tuyen error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:48:21,306 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-va-dich-vu-dai-quang-tuyen
+2019-08-06 13:48:21,306 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 13:58:09,508 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-trach-nhiem-huu-han-san-xuat-thuong-mai-quoc-te-viet-thang error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 13:58:09,508 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-trach-nhiem-huu-han-san-xuat-thuong-mai-quoc-te-viet-thang
+2019-08-06 13:58:09,508 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:03:44,765 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dien-luc-licogi-16 error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:03:44,765 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dien-luc-licogi-16
+2019-08-06 14:03:44,765 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:14:24,539 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cty-tnhh-hanh-trinh-son-viet error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:14:24,539 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cty-tnhh-hanh-trinh-son-viet
+2019-08-06 14:14:24,539 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:17:58,901 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-du-lich-viet-nhi error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:17:58,901 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-du-lich-viet-nhi
+2019-08-06 14:17:58,901 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:20:11,913 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-chong-tham-dong-duong error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:20:11,913 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-chong-tham-dong-duong
+2019-08-06 14:20:11,913 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:23:54,679 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-truyen-thong-va-quang-cao-dat-vo error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:23:54,679 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-truyen-thong-va-quang-cao-dat-vo
+2019-08-06 14:23:54,679 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:24:10,085 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-lang-binh-an error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:24:10,085 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-lang-binh-an
+2019-08-06 14:24:10,085 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:27:47,089 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-huong-an-nguyen error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:27:47,089 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-huong-an-nguyen
+2019-08-06 14:27:47,089 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:27:50,386 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tiep-van-vu-tru error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:27:50,386 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tiep-van-vu-tru
+2019-08-06 14:27:50,386 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:30:41,622 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-in-hai-au error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:30:41,622 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-in-hai-au
+2019-08-06 14:30:41,622 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:31:18,112 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-van-chuyen-hang-hoa-phuong-dong error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:31:18,112 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-van-chuyen-hang-hoa-phuong-dong
+2019-08-06 14:31:18,112 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:33:01,618 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-viet-hang error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:33:01,618 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-viet-hang
+2019-08-06 14:33:01,618 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:34:42,433 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-truyen-thong-truong-phat error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:34:42,433 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-truyen-thong-truong-phat
+2019-08-06 14:34:42,433 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:42:51,180 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-hang-hai-va-dau-khi-a-chau error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:42:51,180 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-hang-hai-va-dau-khi-a-chau
+2019-08-06 14:42:51,180 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:53:19,590 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-tu-van-au-my error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:53:19,590 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-tu-van-au-my
+2019-08-06 14:53:19,590 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:56:58,830 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hieu-huy error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:56:58,830 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hieu-huy
+2019-08-06 14:56:58,830 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 14:57:32,408 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-doanh-nhan-dat-viet error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 14:57:32,408 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-doanh-nhan-dat-viet
+2019-08-06 14:57:32,408 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:07:24,257 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thiet-ke-xay-dung-va-dau-tu-cat-tuong error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:07:24,257 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thiet-ke-xay-dung-va-dau-tu-cat-tuong
+2019-08-06 15:07:24,257 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:09:18,914 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-du-lich-thuong-mai-dich-vu-lan-anh error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:09:18,914 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-du-lich-thuong-mai-dich-vu-lan-anh
+2019-08-06 15:09:18,914 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:09:59,302 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quoc-te-phuong-hoang error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:09:59,302 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quoc-te-phuong-hoang
+2019-08-06 15:09:59,302 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:12:03,844 [INFO]- close the connection database
+
+2019-08-06 15:12:11,410 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 15:12:11,428 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 15:12:13,310 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-binh-thanh
+2019-08-06 15:15:37,007 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-quang-cao-mui-ten error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:15:37,007 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-quang-cao-mui-ten
+2019-08-06 15:15:37,007 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:19:51,616 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-hoa-chat-hoang-bao error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:19:51,616 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-hoa-chat-hoang-bao
+2019-08-06 15:19:51,616 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:20:06,446 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nuoc-khoang-viet-phap error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:20:06,446 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nuoc-khoang-viet-phap
+2019-08-06 15:20:06,446 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:34:54,839 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-06 15:34:54,839 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-go-vap
+2019-08-06 15:34:57,862 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-quoc-te-rang-dong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:34:57,862 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-quoc-te-rang-dong
+2019-08-06 15:34:57,862 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:35:02,006 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-lkt error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:35:02,006 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-lkt
+2019-08-06 15:35:02,006 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:35:49,143 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-dau-tu-xay-dung-htdeco error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:35:49,143 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-dau-tu-xay-dung-htdeco
+2019-08-06 15:35:49,143 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:35:58,179 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-xnk-korea-wind error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:35:58,179 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-xnk-korea-wind
+2019-08-06 15:35:58,179 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:06,633 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-xuat-nhap-khau-washi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:06,633 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-xuat-nhap-khau-washi
+2019-08-06 15:36:06,633 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:09,606 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phu-kien-noi-that-fura error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:09,606 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phu-kien-noi-that-fura
+2019-08-06 15:36:09,606 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:22,778 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-pl-kim-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:22,778 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-pl-kim-phat
+2019-08-06 15:36:22,778 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:31,936 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-vat-tu-dien-lanh-nt error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:31,936 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-vat-tu-dien-lanh-nt
+2019-08-06 15:36:31,936 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:38,483 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tin-hieu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:38,483 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tin-hieu
+2019-08-06 15:36:38,483 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:43,795 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-apt-plus error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:43,795 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-apt-plus
+2019-08-06 15:36:43,795 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:55,021 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-van-tai-thanh-xuan error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:55,021 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-van-tai-thanh-xuan
+2019-08-06 15:36:55,021 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:36:59,130 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gpn error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:36:59,130 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gpn
+2019-08-06 15:36:59,130 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:00,684 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-san-xuat-moc-pham-thu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:00,684 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-san-xuat-moc-pham-thu
+2019-08-06 15:37:00,684 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:04,684 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-the-fountain-group error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:04,684 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-the-fountain-group
+2019-08-06 15:37:04,684 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:07,840 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-thiet-bi-xay-dung-phat-tien error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:07,840 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-thiet-bi-xay-dung-phat-tien
+2019-08-06 15:37:07,840 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:10,340 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-ha-my error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:10,340 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-ha-my
+2019-08-06 15:37:10,340 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:12,668 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-xuat-nhap-khau-dh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:12,668 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-xuat-nhap-khau-dh
+2019-08-06 15:37:12,668 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:22,612 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-cua-tai-loc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:22,612 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-cua-tai-loc
+2019-08-06 15:37:22,612 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:27,628 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-citytrans error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:27,628 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-citytrans
+2019-08-06 15:37:27,628 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:42,690 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-kim-lam-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:42,690 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-kim-lam-phat
+2019-08-06 15:37:42,690 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:46,606 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-xay-dung-qq-house error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:37:46,606 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-xay-dung-qq-house
+2019-08-06 15:37:46,606 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:37:56,012 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-du-lich-sai-gon-bp error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:37:56,012 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-du-lich-sai-gon-bp
+2019-08-06 15:37:56,012 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:08,621 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-xay-dung-kien-truc-go-vap error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:38:08,621 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-xay-dung-kien-truc-go-vap
+2019-08-06 15:38:08,621 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:14,109 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-sang-tao-gia-tri-moi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:38:14,109 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-sang-tao-gia-tri-moi
+2019-08-06 15:38:14,109 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:20,187 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-thiet-bi-loc-mien-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:38:20,187 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-thiet-bi-loc-mien-nam
+2019-08-06 15:38:20,187 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:23,523 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-somot-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:38:23,539 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-somot-viet-nam
+2019-08-06 15:38:23,539 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:25,937 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-quan-ly-dau-tu-mhmt-viet-nam error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:38:25,937 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-quan-ly-dau-tu-mhmt-viet-nam
+2019-08-06 15:38:25,937 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:38:49,343 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-van-tai-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:38:49,343 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-van-tai-viet-nam
+2019-08-06 15:38:49,343 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:01,624 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-lanh-tung-thinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:01,624 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-lanh-tung-thinh
+2019-08-06 15:39:01,624 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:22,722 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-va-phat-trien-tran-gia-anh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:22,738 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-va-phat-trien-tran-gia-anh
+2019-08-06 15:39:22,738 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:28,906 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-thu-gom-chat-thai-ran-quang-vinh error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:39:28,906 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-thu-gom-chat-thai-ran-quang-vinh
+2019-08-06 15:39:28,906 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:30,968 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-phat-trien-ktm error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:30,968 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-phat-trien-ktm
+2019-08-06 15:39:30,968 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:33,507 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-loi-dat-a-va-p error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:33,507 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-loi-dat-a-va-p
+2019-08-06 15:39:33,507 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:44,278 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dau-tu-thuong-mai-va-dich-vu-victory error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:44,278 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dau-tu-thuong-mai-va-dich-vu-victory
+2019-08-06 15:39:44,278 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:39:54,934 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-tong-hop-anh-duong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:39:54,934 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-tong-hop-anh-duong
+2019-08-06 15:39:54,934 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:17,938 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dich-vu-du-lich-nong-nghiep-happy-farm error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:17,938 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dich-vu-du-lich-nong-nghiep-happy-farm
+2019-08-06 15:40:17,938 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:22,688 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-mang-truyen-hinh-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:22,704 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-mang-truyen-hinh-viet-nam
+2019-08-06 15:40:22,704 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:23,875 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-cp-cong-dong-viet-long-qui error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:23,891 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-cp-cong-dong-viet-long-qui
+2019-08-06 15:40:23,891 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:24,938 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tienphong-auto-holdings error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:24,938 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tienphong-auto-holdings
+2019-08-06 15:40:24,938 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:26,250 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-laco error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:26,250 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-laco
+2019-08-06 15:40:26,250 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:29,816 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-thien-dat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:29,816 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-thien-dat
+2019-08-06 15:40:29,816 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:32,227 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-king-pac error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:32,227 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-king-pac
+2019-08-06 15:40:32,227 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:35,769 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-pty error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:35,769 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-pty
+2019-08-06 15:40:35,769 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:39,553 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-noi-that-va-xay-dung-tai-duc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:39,553 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-noi-that-va-xay-dung-tai-duc
+2019-08-06 15:40:39,553 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:42,568 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-tu-van-thiet-ke-xay-dung-kien-truc-hoang-thong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:42,584 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-tu-van-thiet-ke-xay-dung-kien-truc-hoang-thong
+2019-08-06 15:40:42,584 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:46,693 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-agiza-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:46,693 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-agiza-viet-nam
+2019-08-06 15:40:46,693 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:53,650 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-co-dien-lanh-hong-ha error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:53,650 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-co-dien-lanh-hong-ha
+2019-08-06 15:40:53,650 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:40:54,916 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-thuong-mai-va-dich-vu-truong-sinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:40:54,916 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-thuong-mai-va-dich-vu-truong-sinh
+2019-08-06 15:40:54,916 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:00,083 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-qc-bumblebee error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:00,083 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-qc-bumblebee
+2019-08-06 15:41:00,083 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:03,230 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thuong-mai-dich-vu-xay-dung-hung-phu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:03,230 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thuong-mai-dich-vu-xay-dung-hung-phu
+2019-08-06 15:41:03,230 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:10,347 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-trach-nhiem-huu-han-thuong-mai-hcn-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:10,347 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-trach-nhiem-huu-han-thuong-mai-hcn-viet-nam
+2019-08-06 15:41:10,347 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:11,784 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xay-dung-van-tai-thanh-son error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:11,784 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xay-dung-van-tai-thanh-son
+2019-08-06 15:41:11,784 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:21,335 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-phuong-dang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:21,335 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-phuong-dang
+2019-08-06 15:41:21,335 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:39,455 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-uni-eurovin error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:39,455 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-uni-eurovin
+2019-08-06 15:41:39,455 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:42,486 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-va-dau-tu-dragon-group error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:42,502 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-va-dau-tu-dragon-group
+2019-08-06 15:41:42,502 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:41:44,189 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-sahoma error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:41:44,205 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-sahoma
+2019-08-06 15:41:44,205 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:42:14,292 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-huy-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:42:14,292 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-huy-phat
+2019-08-06 15:42:14,292 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:42:20,542 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-mcb error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:42:20,542 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-mcb
+2019-08-06 15:42:20,542 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:42:28,107 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-thinh-tin-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:42:28,107 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-dich-vu-thinh-tin-phat
+2019-08-06 15:42:28,107 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:42:32,764 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dau-tu-xay-dung-nahy-jsc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:42:32,764 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dau-tu-xay-dung-nahy-jsc
+2019-08-06 15:42:32,764 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:42:55,294 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hp-bio-new error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:42:55,294 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hp-bio-new
+2019-08-06 15:42:55,294 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:10,028 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-chau-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:10,028 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-chau-phat
+2019-08-06 15:43:10,028 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:16,916 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-kien-tue error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:16,916 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-kien-tue
+2019-08-06 15:43:16,916 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:23,213 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-trung-sneaker error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:23,213 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-trung-sneaker
+2019-08-06 15:43:23,213 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:25,998 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-thuong-mai-dich-vu-vinh-thinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:25,998 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-thuong-mai-dich-vu-vinh-thinh
+2019-08-06 15:43:25,998 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:28,814 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-bi-y-te-sung-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:28,829 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-bi-y-te-sung-viet-nam
+2019-08-06 15:43:28,829 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:43:47,722 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-p-trading error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:43:47,722 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-p-trading
+2019-08-06 15:43:47,722 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:06,446 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-to-gia error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:06,446 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-to-gia
+2019-08-06 15:44:06,446 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:10,102 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thoi-trang-phuong-van error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:10,102 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thoi-trang-phuong-van
+2019-08-06 15:44:10,102 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:33,776 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xay-dung-hoang-tan-dat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:33,776 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xay-dung-hoang-tan-dat
+2019-08-06 15:44:33,776 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:37,592 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-dong-hoa-hoang-phuc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:37,592 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-dong-hoa-hoang-phuc
+2019-08-06 15:44:37,592 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:44,176 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-van-tai-hai-minh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:44,192 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-van-tai-hai-minh
+2019-08-06 15:44:44,192 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:45,383 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-gas-dai-thang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:45,383 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-gas-dai-thang
+2019-08-06 15:44:45,383 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:54,054 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xay-dung-thuong-mai-nguyen-tung error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:54,054 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xay-dung-thuong-mai-nguyen-tung
+2019-08-06 15:44:54,054 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:44:56,762 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-cong-nghe-iot-thien-phu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:44:56,762 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-cong-nghe-iot-thien-phu
+2019-08-06 15:44:56,762 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:45:09,546 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-xnk-khanh-toan error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:45:09,546 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-xnk-khanh-toan
+2019-08-06 15:45:09,546 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:45:13,909 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nang-luong-va-ky-thuat-htc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:45:13,909 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nang-luong-va-ky-thuat-htc
+2019-08-06 15:45:13,909 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:45:37,821 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-ktdv-tam-thinh-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:45:37,821 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-ktdv-tam-thinh-phat
+2019-08-06 15:45:37,821 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:45:52,743 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-minh-khanh-foods error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:45:52,743 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-minh-khanh-foods
+2019-08-06 15:45:52,743 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:45:54,258 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-tc-tech error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:45:54,258 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-tc-tech
+2019-08-06 15:45:54,258 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:03,833 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-vuong-khang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:03,833 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-vuong-khang
+2019-08-06 15:46:03,833 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:07,380 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-ky-thuat-tran-thanh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:07,380 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-ky-thuat-tran-thanh
+2019-08-06 15:46:07,380 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:09,552 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nova-sapa error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:09,552 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nova-sapa
+2019-08-06 15:46:09,552 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:24,239 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-hoa-dau-minh-quang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:24,239 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-hoa-dau-minh-quang
+2019-08-06 15:46:24,239 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:28,192 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-l68 error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:28,192 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-l68
+2019-08-06 15:46:28,192 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:38,714 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-va-thuong-mai-ras error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:38,714 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-va-thuong-mai-ras
+2019-08-06 15:46:38,714 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:46:49,073 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-quy-thanh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:46:49,073 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-quy-thanh
+2019-08-06 15:46:49,073 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:47:01,401 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-van-tai-stts error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:47:01,401 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-van-tai-stts
+2019-08-06 15:47:01,401 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:47:10,866 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-san-xuat-qua-tang-viet-first error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:47:10,866 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-san-xuat-qua-tang-viet-first
+2019-08-06 15:47:10,882 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:47:21,116 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-ky-thuat-dien-lanh-xuan-hong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:47:21,116 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-ky-thuat-dien-lanh-xuan-hong
+2019-08-06 15:47:21,116 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:47:22,887 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-phanco error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:47:22,887 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-phanco
+2019-08-06 15:47:22,887 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:47:31,956 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-go-my-nghe-nam-viet error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:47:31,956 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-go-my-nghe-nam-viet
+2019-08-06 15:47:31,956 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:04,757 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tikasa error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:04,757 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tikasa
+2019-08-06 15:48:04,757 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:07,273 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-xuat-nhap-khau-dai-cat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:07,273 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-xuat-nhap-khau-dai-cat
+2019-08-06 15:48:07,273 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:15,225 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gena-holding error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:15,225 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gena-holding
+2019-08-06 15:48:15,225 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:20,599 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-ngan-linh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:20,599 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-ngan-linh
+2019-08-06 15:48:20,599 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:38,948 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-victory-pharma-group error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:38,948 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-victory-pharma-group
+2019-08-06 15:48:38,948 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:51,969 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tap-doan-tinh-hoa-dat-viet error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:51,984 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tap-doan-tinh-hoa-dat-viet
+2019-08-06 15:48:51,984 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:48:57,109 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-phat-trien-vo-gia error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:48:57,109 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-phat-trien-vo-gia
+2019-08-06 15:48:57,109 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:49:26,891 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-quang-phuc-hung error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:49:26,891 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-quang-phuc-hung
+2019-08-06 15:49:26,891 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:49:29,709 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-san-xuat-son-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:49:29,709 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thuong-mai-dich-vu-san-xuat-son-nam
+2019-08-06 15:49:29,709 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:49:46,669 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-kien-truc-noi-that-laladecor error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:49:46,669 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thiet-ke-kien-truc-noi-that-laladecor
+2019-08-06 15:49:46,669 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:49:52,138 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-the-thao-poca error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:49:52,138 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-the-thao-poca
+2019-08-06 15:49:52,138 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:49:57,094 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-nguyen-ton error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:49:57,094 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-nguyen-ton
+2019-08-06 15:49:57,094 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:00,387 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quynh-tran error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:00,387 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quynh-tran
+2019-08-06 15:50:00,387 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:13,152 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-san-xuat-thuong-mai-dich-vu-y-viet-my error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:13,152 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-san-xuat-thuong-mai-dich-vu-y-viet-my
+2019-08-06 15:50:13,152 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:14,339 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-thuy-moc-gia error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:14,339 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-thuy-moc-gia
+2019-08-06 15:50:14,339 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:17,011 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-plt-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:17,011 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-plt-viet-nam
+2019-08-06 15:50:17,011 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:26,011 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-yen-sao-phuong-thao error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:26,011 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-yen-sao-phuong-thao
+2019-08-06 15:50:26,011 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:31,861 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-quynh-kim-huy error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:31,861 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-quynh-kim-huy
+2019-08-06 15:50:31,861 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:37,079 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-sai-gon-hung-vuong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:37,079 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xuat-nhap-khau-sai-gon-hung-vuong
+2019-08-06 15:50:37,079 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:41,099 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-liaa error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:41,099 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-liaa
+2019-08-06 15:50:41,099 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:42,041 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-anh-nghiep error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:42,041 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-anh-nghiep
+2019-08-06 15:50:42,041 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:45,999 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-cung-ung-nhan-luc-indopaci error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:45,999 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-cung-ung-nhan-luc-indopaci
+2019-08-06 15:50:45,999 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:50:52,092 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-quang-vinh-lqv error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:50:52,092 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-quang-vinh-lqv
+2019-08-06 15:50:52,092 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:05,803 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-istone error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:05,803 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-istone
+2019-08-06 15:51:05,803 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:06,730 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-milena error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:06,730 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-milena
+2019-08-06 15:51:06,730 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:09,121 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xnk-thanh-thanh-hcm error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:09,136 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xnk-thanh-thanh-hcm
+2019-08-06 15:51:09,136 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:10,417 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-villa-green error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:10,417 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-villa-green
+2019-08-06 15:51:10,417 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:11,558 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-co-khi-va-xay-dung-ttc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:11,558 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-co-khi-va-xay-dung-ttc
+2019-08-06 15:51:11,558 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:13,808 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-dich-vu-thuong-mai-dau-tu-loc-xuan error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:13,824 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-dich-vu-thuong-mai-dau-tu-loc-xuan
+2019-08-06 15:51:13,824 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:16,058 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-hoang-khoi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:16,058 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-hoang-khoi
+2019-08-06 15:51:16,058 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:22,895 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phuc-full-face error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:22,895 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phuc-full-face
+2019-08-06 15:51:22,895 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:23,848 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-an-phuc-minh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:23,848 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-an-phuc-minh
+2019-08-06 15:51:23,848 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:32,176 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-son-viet-tiep error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:32,176 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-son-viet-tiep
+2019-08-06 15:51:32,176 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:51:54,611 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-loc-xanh-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:51:54,612 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-loc-xanh-phat
+2019-08-06 15:51:54,612 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:06,936 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-quoc-te-tam-an error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:06,937 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-quoc-te-tam-an
+2019-08-06 15:52:06,937 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:15,145 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-biviko error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:15,145 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-biviko
+2019-08-06 15:52:15,145 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:28,453 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-body-fate-happy-van-y error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:28,453 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-body-fate-happy-van-y
+2019-08-06 15:52:28,453 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:29,825 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-my-pham-ila error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:29,826 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-my-pham-ila
+2019-08-06 15:52:29,826 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:36,703 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-lien-ket-phat-trien-toan-cau error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:36,703 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-lien-ket-phat-trien-toan-cau
+2019-08-06 15:52:36,703 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:44,234 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-thuong-mai-san-xuat-ngoc-anh-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:44,235 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-thuong-mai-san-xuat-ngoc-anh-phat
+2019-08-06 15:52:44,235 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:52:59,535 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-toan-cau-minh-anh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:52:59,537 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-toan-cau-minh-anh
+2019-08-06 15:52:59,537 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:00,557 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-thuong-mai-dich-vu-nguyen-binh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:00,558 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-thuong-mai-dich-vu-nguyen-binh
+2019-08-06 15:53:00,558 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:14,079 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-quoc-thien error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:14,080 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-quoc-thien
+2019-08-06 15:53:14,080 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:43,527 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-gems error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:43,528 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-gems
+2019-08-06 15:53:43,528 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:49,037 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phu-kien-thoi-trang-hanh-duong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:49,038 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phu-kien-thoi-trang-hanh-duong
+2019-08-06 15:53:49,038 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:50,428 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vat-lieu-esti error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:50,429 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vat-lieu-esti
+2019-08-06 15:53:50,429 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:51,752 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-adi-ami error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:51,753 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-adi-ami
+2019-08-06 15:53:51,754 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:53:59,410 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-npk-express error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:53:59,411 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-giai-phap-npk-express
+2019-08-06 15:53:59,411 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:54:00,586 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-tong-hop-anh-thu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:54:00,587 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-tong-hop-anh-thu
+2019-08-06 15:54:00,588 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:54:33,674 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-thuy-nong-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:54:33,675 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-xuat-nhap-khau-thuy-nong-phat
+2019-08-06 15:54:33,675 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:54:48,205 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-song-han error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:54:48,206 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-van-tai-song-han
+2019-08-06 15:54:48,206 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:54:54,489 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-sunbeam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:54:54,491 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-sunbeam
+2019-08-06 15:54:54,491 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:03,205 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-the-sun-sai-gon error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:03,206 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-the-sun-sai-gon
+2019-08-06 15:55:03,206 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:07,760 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-ky-thuat-viet-thai error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:07,761 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-ky-thuat-viet-thai
+2019-08-06 15:55:07,761 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:14,463 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-quang-cao-noi-that-pic error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:14,464 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-quang-cao-noi-that-pic
+2019-08-06 15:55:14,464 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:16,470 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nikko-material error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:16,471 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nikko-material
+2019-08-06 15:55:16,472 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:23,503 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-khuong-the error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:23,505 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-khuong-the
+2019-08-06 15:55:23,505 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:38,673 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-xuat-nhap-khau-kg-trading error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:38,674 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-xuat-nhap-khau-kg-trading
+2019-08-06 15:55:38,674 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:46,052 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-va-thuong-mai-green-future-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:46,052 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-va-thuong-mai-green-future-viet-nam
+2019-08-06 15:55:46,052 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:47,668 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-nang-luong-thien-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:47,668 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-nang-luong-thien-phat
+2019-08-06 15:55:47,668 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:49,117 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-nang-luong-vien-ngoc-xanh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:49,118 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-nang-luong-vien-ngoc-xanh
+2019-08-06 15:55:49,118 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:55:51,494 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-tu-van-thiet-ke-xay-dung-lk error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:55:51,496 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-tu-van-thiet-ke-xay-dung-lk
+2019-08-06 15:55:51,496 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:56:14,361 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-thanh-quy error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:56:14,362 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-san-xuat-thanh-quy
+2019-08-06 15:56:14,362 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:56:29,004 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-spure error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 15:56:29,005 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-spure
+2019-08-06 15:56:29,005 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:56:38,135 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-yct error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:56:38,136 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-yct
+2019-08-06 15:56:38,136 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:07,526 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-buttercup error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:07,527 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-buttercup
+2019-08-06 15:57:07,527 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:10,459 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-fnd-logistics error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:10,460 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-fnd-logistics
+2019-08-06 15:57:10,460 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:15,178 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-thiet-ke-xay-dung-hop-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:15,179 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-thiet-ke-xay-dung-hop-phat
+2019-08-06 15:57:15,179 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:20,062 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-loc-minh-khoi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:20,063 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-loc-minh-khoi
+2019-08-06 15:57:20,063 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:21,106 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-xay-dungtien-hung error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:21,107 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-thiet-ke-xay-dungtien-hung
+2019-08-06 15:57:21,107 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:27,006 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-thanh-hiep-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:27,007 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-thanh-hiep-phat
+2019-08-06 15:57:27,007 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:41,331 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-huynh-dong-phong error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:41,332 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-huynh-dong-phong
+2019-08-06 15:57:41,332 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:44,012 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-san-xuat-va-dich-vu-dong-phuc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:44,013 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-san-xuat-va-dich-vu-dong-phuc
+2019-08-06 15:57:44,013 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:49,648 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-san-xuat-thuong-mai-dich-vu-tingo error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:49,649 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mtv-san-xuat-thuong-mai-dich-vu-tingo
+2019-08-06 15:57:49,649 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:57:53,272 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-beo error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:57:53,273 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-beo
+2019-08-06 15:57:53,273 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:06,793 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-bien-long-group error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:06,794 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-bien-long-group
+2019-08-06 15:58:06,794 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:10,919 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-cp-dau-tu-thuong-mai-va-xay-dung-dia-oc-bao-ngoc-group error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:10,920 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-cp-dau-tu-thuong-mai-va-xay-dung-dia-oc-bao-ngoc-group
+2019-08-06 15:58:10,920 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:16,853 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-sinh-hoc-moi-truong-kien-thang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:16,854 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-cong-nghe-sinh-hoc-moi-truong-kien-thang
+2019-08-06 15:58:16,855 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:24,909 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nha-khoa-white-king error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:24,910 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nha-khoa-white-king
+2019-08-06 15:58:24,910 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:27,154 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-uncle-long error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:27,155 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-uncle-long
+2019-08-06 15:58:27,155 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:30,669 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-toan-tai-ky error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:30,670 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-toan-tai-ky
+2019-08-06 15:58:30,670 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:34,852 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-san-xuat-hung-thinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:34,853 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-san-xuat-hung-thinh
+2019-08-06 15:58:34,853 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:36,224 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-minh-an-sai-gon error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:36,225 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-minh-an-sai-gon
+2019-08-06 15:58:36,226 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:49,434 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-thuong-ngo error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:49,435 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-thuong-ngo
+2019-08-06 15:58:49,435 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:58:52,346 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dai-phuc-van error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:58:52,347 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dai-phuc-van
+2019-08-06 15:58:52,347 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:59:32,911 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-va-thuong-mai-tvu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:59:32,912 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-va-thuong-mai-tvu
+2019-08-06 15:59:32,912 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:59:35,539 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-cong-nghiep-dong-tay error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:59:35,540 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-cong-nghiep-dong-tay
+2019-08-06 15:59:35,540 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 15:59:54,294 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-trang-thiet-bi-bao-ho-phi-long error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 15:59:54,295 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-trang-thiet-bi-bao-ho-phi-long
+2019-08-06 15:59:54,295 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:13,291 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-giao-nhan-van-tai-phuong-hung error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:13,292 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-giao-nhan-van-tai-phuong-hung
+2019-08-06 16:00:13,292 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:14,482 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quoc-te-khang-binh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:14,483 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-quoc-te-khang-binh
+2019-08-06 16:00:14,483 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:22,805 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-benh-vien-quoc-te-115 error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:22,806 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-benh-vien-quoc-te-115
+2019-08-06 16:00:22,806 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:27,652 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xnk-ronald-jack-viet-nam error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:00:27,653 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xnk-ronald-jack-viet-nam
+2019-08-06 16:00:27,653 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:38,272 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-pita error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:38,273 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-pita
+2019-08-06 16:00:38,273 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:52,763 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-ict error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:52,765 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-ict
+2019-08-06 16:00:52,765 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:00:55,491 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vb error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:00:55,492 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vb
+2019-08-06 16:00:55,492 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:01:07,521 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-fresh-pro error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:01:07,522 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-fresh-pro
+2019-08-06 16:01:07,522 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:01:30,712 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuan-gia-khang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:01:30,713 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuan-gia-khang
+2019-08-06 16:01:30,714 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:01:36,513 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-xnk-hai-yen-food error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:01:36,514 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tm-dv-xnk-hai-yen-food
+2019-08-06 16:01:36,514 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:01:45,657 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-dien-vy error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:01:45,658 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-dau-tu-dien-vy
+2019-08-06 16:01:45,658 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:01:58,009 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-hotel-quynh-nhu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:01:58,010 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-hotel-quynh-nhu
+2019-08-06 16:01:58,010 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:02:18,713 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-cong-nghe-qs error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:02:18,714 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-cong-nghe-qs
+2019-08-06 16:02:18,714 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:02:21,142 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-beauty-slon-ai-hue-4h error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:02:21,143 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-beauty-slon-ai-hue-4h
+2019-08-06 16:02:21,143 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:02:25,872 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-beauty-chame-vietnam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:02:25,873 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-beauty-chame-vietnam
+2019-08-06 16:02:25,874 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:02:30,760 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-thuc-pham-bao-phuc error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:02:30,761 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-va-dich-vu-thuc-pham-bao-phuc
+2019-08-06 16:02:30,761 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:02:40,820 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dien-tu-gia-dung-ky-nguyen error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:02:40,821 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-dien-tu-gia-dung-ky-nguyen
+2019-08-06 16:02:40,821 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:03:10,594 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-thiet-ke-dau-tu-beo-concept error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:03:10,595 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-tu-van-thiet-ke-dau-tu-beo-concept
+2019-08-06 16:03:10,595 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:03:17,002 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xay-dung-pho-nui error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:03:17,003 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xay-dung-pho-nui
+2019-08-06 16:03:17,003 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:03:18,132 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-vinatekcom error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:03:18,132 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-vinatekcom
+2019-08-06 16:03:18,132 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:03:53,438 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-phong-viet error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:03:53,439 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-xay-dung-phong-viet
+2019-08-06 16:03:53,439 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:03:59,283 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-ky-thuat-thuong-mai-phu-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:03:59,284 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-ky-thuat-thuong-mai-phu-nam
+2019-08-06 16:03:59,284 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:04:18,537 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-an-vinh-phu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:04:18,538 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-an-vinh-phu
+2019-08-06 16:04:18,538 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:04:21,018 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-toan-dai-loi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:04:21,019 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-toan-dai-loi
+2019-08-06 16:04:21,019 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:04:24,499 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-cpn error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:04:24,501 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-cpn
+2019-08-06 16:04:24,501 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:04:31,431 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-a-chau-green-fuel error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:04:31,432 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-a-chau-green-fuel
+2019-08-06 16:04:31,432 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:04:50,123 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-think-smart error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:04:50,124 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-think-smart
+2019-08-06 16:04:50,124 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:02,430 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vat-lieu-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:02,430 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-vat-lieu-viet-nam
+2019-08-06 16:05:02,430 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:24,960 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-civi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:24,960 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-civi
+2019-08-06 16:05:24,960 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:30,995 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hang-hai-ngoc-long error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:31,011 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-hang-hai-ngoc-long
+2019-08-06 16:05:31,011 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:45,871 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-xay-dung-anh-viet error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:45,871 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-xay-dung-anh-viet
+2019-08-06 16:05:45,871 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:48,410 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-hifatex error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:48,410 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-hifatex
+2019-08-06 16:05:48,410 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:05:55,695 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-nam-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:05:55,695 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ky-thuat-nam-phat
+2019-08-06 16:05:55,695 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:03,441 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-xay-dung-tran-thuan-phat error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:03,441 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-xay-dung-tran-thuan-phat
+2019-08-06 16:06:03,441 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:07,985 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nam-anh-vinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:07,985 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-nam-anh-vinh
+2019-08-06 16:06:07,985 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:09,457 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-tran-dinh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:09,473 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-kinh-doanh-tran-dinh
+2019-08-06 16:06:09,473 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:36,364 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-thu-an error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:36,380 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-thu-an
+2019-08-06 16:06:36,380 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:52,688 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thiet-bi-thi-nghiem-xay-dung-sai-gon-ha-noi error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:52,688 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-thiet-bi-thi-nghiem-xay-dung-sai-gon-ha-noi
+2019-08-06 16:06:52,688 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:06:57,169 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-mua-sam-sck error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:06:57,170 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-mua-sam-sck
+2019-08-06 16:06:57,170 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:11,847 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-tong-hop-an-phu-khang error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:11,848 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-dich-vu-tong-hop-an-phu-khang
+2019-08-06 16:07:11,848 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:15,977 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-bao-ho-lao-dong-sato error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:15,978 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-bao-ho-lao-dong-sato
+2019-08-06 16:07:15,978 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:20,523 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-kingbuy-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:20,538 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-xuat-nhap-khau-kingbuy-viet-nam
+2019-08-06 16:07:20,538 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:24,774 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-van-tai-du-lich-hoang-minh-tu error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:24,775 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-van-tai-du-lich-hoang-minh-tu
+2019-08-06 16:07:24,775 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:41,053 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ba-do-na error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:41,053 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-ba-do-na
+2019-08-06 16:07:41,053 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:43,942 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phan-phoi-best-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:43,942 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phan-phoi-best-viet-nam
+2019-08-06 16:07:43,942 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:45,113 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-wai-hai-viet-nam error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:45,114 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-wai-hai-viet-nam
+2019-08-06 16:07:45,114 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:07:53,366 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-lien-ket-nhanh error : 1406 (22001): Data too long for column 'company_type' at row 1
+2019-08-06 16:07:53,367 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-thuong-mai-dich-vu-lien-ket-nhanh
+2019-08-06 16:07:53,367 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:14:59,219 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 16:14:59,235 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 16:15:00,519 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-go-vap
+2019-08-06 16:35:02,534 [INFO]- ========RUN CRAWL DATA=========
+2019-08-06 16:35:02,546 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-06 16:35:03,099 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-go-vap
+2019-08-06 16:36:26,776 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-san-xuat-thuong-mai-xuat-nhap-khau-dich-vu-in-an-quang-cao-hoang-mien error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:36:26,776 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-co-phan-san-xuat-thuong-mai-xuat-nhap-khau-dich-vu-in-an-quang-cao-hoang-mien
+2019-08-06 16:36:26,776 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:37:03,892 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-truyen-hinh-giao-duc-va-phap-luat error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:37:03,908 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-truyen-hinh-giao-duc-va-phap-luat
+2019-08-06 16:37:03,908 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:38:13,540 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-du-hoc-one-plus error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:38:13,541 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-tu-van-du-hoc-one-plus
+2019-08-06 16:38:13,542 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:40:04,135 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-van-chuyen-p-h error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:40:04,135 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-thuong-mai-dich-vu-van-chuyen-p-h
+2019-08-06 16:40:04,135 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:41:08,566 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-tu-van-dich-vu-giao-duc-va-du-lich-tan-van-chi-nhanh-trung-tam-ngoai-ngu-tan-van-trung-tam-giao-duc error : 1406 (22001): Data too long for column 'name' at row 1
+2019-08-06 16:41:08,566 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-mot-thanh-vien-tu-van-dich-vu-giao-duc-va-du-lich-tan-van-chi-nhanh-trung-tam-ngoai-ngu-tan-van-trung-tam-giao-duc
+2019-08-06 16:41:08,566 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:41:39,113 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/van-phong-dai-dien-thanh-pho-ho-chi-minh-cong-ty-co-phan-dich-vu-truyen-thong-va-cong-nghe-thong-tin-ha-noi error : 1406 (22001): Data too long for column 'name' at row 1
+2019-08-06 16:41:39,113 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/van-phong-dai-dien-thanh-pho-ho-chi-minh-cong-ty-co-phan-dich-vu-truyen-thong-va-cong-nghe-thong-tin-ha-noi
+2019-08-06 16:41:39,113 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:41:50,353 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-tai-tp-ho-chi-minh-cong-ty-co-phan-phat-trien-nhan-luc-va-thuong-mai-viet-nam-tp-ha-noi error : 1406 (22001): Data too long for column 'name' at row 1
+2019-08-06 16:41:50,353 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-tai-tp-ho-chi-minh-cong-ty-co-phan-phat-trien-nhan-luc-va-thuong-mai-viet-nam-tp-ha-noi
+2019-08-06 16:41:50,353 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:43:30,410 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-cong-ty-trach-nhiem-huu-han-mot-thanh-vien-thuong-mai-dich-vu-the-thao-va-nghe-thuat-duyen-dang-viet error : 1406 (22001): Data too long for column 'name' at row 1
+2019-08-06 16:43:30,410 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-cong-ty-trach-nhiem-huu-han-mot-thanh-vien-thuong-mai-dich-vu-the-thao-va-nghe-thuat-duyen-dang-viet
+2019-08-06 16:43:30,410 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:44:30,533 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-cong-ty-tnhh-mot-thanh-vien-san-xuat-thuong-mai-dich-vu-dong-hung-phat-showroom-noi-that-ben-thanh error : 1406 (22001): Data too long for column 'name' at row 1
+2019-08-06 16:44:30,533 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/chi-nhanh-cong-ty-tnhh-mot-thanh-vien-san-xuat-thuong-mai-dich-vu-dong-hung-phat-showroom-noi-that-ben-thanh
+2019-08-06 16:44:30,533 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:47:17,516 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gia-thuy-ntnn error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:47:17,516 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-gia-thuy-ntnn
+2019-08-06 16:47:17,516 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 16:52:37,945 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-cong-nghe-copacs error : 1406 (22001): Data too long for column 'phone_number' at row 1
+2019-08-06 16:52:37,945 [WARNING]- error unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cong-ty-tnhh-phat-trien-cong-nghe-copacs
+2019-08-06 16:52:37,945 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-06 21:18:39,772 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-06 21:18:39,772 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-binh-tan
+2019-08-06 22:22:02,588 [ERROR]- url :https://ho-chi-minh.congtydoanhnghiep.com/van-phong-dai-dien-cong-ty-co-phan-ky-thuat-nam-cong error : HTTP Error 404: Not Found
+2019-08-07 01:24:26,959 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-07 01:24:26,961 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-tan-phu
+2019-08-07 01:58:26,854 [INFO]- close the connection database
+
+2019-08-07 01:59:35,986 [INFO]- ========RUN CRAWL DATA=========
+2019-08-07 01:59:36,013 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-07 01:59:36,500 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-tan-phu
+2019-08-07 02:15:15,679 [INFO]- close the connection database
+
+2019-08-07 02:15:29,171 [INFO]- ========RUN CRAWL DATA=========
+2019-08-07 02:15:29,185 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-07 02:15:29,633 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-tan-phu
+2019-08-07 02:17:12,972 [INFO]- close the connection database
+
+2019-08-07 02:17:20,501 [INFO]- ========RUN CRAWL DATA=========
+2019-08-07 02:17:20,512 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-07 02:17:20,903 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-tan-phu
+2019-08-07 02:19:55,744 [INFO]- close the connection database
+
+2019-08-07 02:20:02,498 [INFO]- ========RUN CRAWL DATA=========
+2019-08-07 02:20:02,514 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-07 02:20:02,902 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-tan-phu
+2019-08-07 05:10:54,681 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-07 05:10:54,683 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-12
+2019-08-07 11:04:15,002 [INFO]- ========RUN CRAWL DATA=========
+2019-08-07 11:04:15,016 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-07 11:04:15,889 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-12
+2019-08-07 17:49:55,401 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-07 17:49:55,401 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-3
+2019-08-08 10:37:48,360 [INFO]- ========RUN CRAWL DATA=========
+2019-08-08 10:37:48,423 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-08 10:37:48,899 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-3
+2019-08-08 13:17:55,163 [ERROR]- HTTP Error 502: Bad Gateway
+2019-08-08 13:17:55,163 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-7
+2019-08-08 13:52:36,184 [INFO]- ========RUN CRAWL DATA=========
+2019-08-08 13:52:36,199 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-08 13:52:36,608 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-7
+2019-08-08 17:52:06,526 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-08 17:52:06,526 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-thu-duc
+2019-08-08 21:06:59,895 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-08 21:06:59,895 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-phu-nhuan
+2019-08-08 23:41:03,071 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-08 23:41:03,071 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 10:20:34,652 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 10:20:34,684 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 10:20:35,090 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 10:21:24,382 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 10:21:24,396 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 10:21:25,283 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 10:21:27,644 [INFO]- close the connection database
+
+2019-08-09 10:21:56,805 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 10:21:56,821 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 10:21:57,242 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 11:08:21,879 [INFO]- close the connection database
+
+2019-08-09 11:09:55,393 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 11:09:55,409 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 11:09:55,846 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 11:11:59,095 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 11:11:59,095 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 11:11:59,610 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 11:12:20,987 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 11:12:20,987 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 11:12:21,503 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-10
+2019-08-09 11:15:56,002 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 11:15:56,002 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/huyen-binh-chanh
+2019-08-09 14:08:56,019 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 14:08:56,019 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-2
+2019-08-09 15:28:33,275 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 12...' for column 'phone_number' at row 1url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-thuong-mai-dich-vu-du-lich-trai-tim-viet
+2019-08-09 15:28:33,275 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-thuong-mai-dich-vu-du-lich-trai-tim-viet
+2019-08-09 15:28:33,275 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-09 16:26:05,215 [INFO]- close the connection database
+
+2019-08-09 16:28:45,668 [INFO]- ========RUN CRAWL DATA=========
+2019-08-09 16:28:45,683 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-09 16:28:46,167 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-2
+2019-08-09 16:43:38,459 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 16:43:38,459 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-9
+2019-08-09 19:00:28,766 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 19:00:28,766 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/huyen-hoc-mon
+2019-08-09 21:05:14,952 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 21:05:14,952 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-8
+2019-08-09 22:53:03,780 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-09 22:53:03,780 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-5
+2019-08-09 23:18:09,446 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBDn n...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/nguyen-thi-thu-phuong
+2019-08-09 23:18:09,446 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/nguyen-thi-thu-phuong
+2019-08-09 23:18:09,446 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-09 23:50:09,269 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 31...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-lan-ngoc-0301923114
+2019-08-09 23:50:09,269 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-lan-ngoc-0301923114
+2019-08-09 23:50:09,269 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-09 23:50:11,409 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 32...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-phuong-nhu
+2019-08-09 23:50:11,409 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-phuong-nhu
+2019-08-09 23:50:11,409 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 00:12:36,898 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBDn n...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/vo-thi-thanh-tin
+2019-08-10 00:12:36,898 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/vo-thi-thanh-tin
+2019-08-10 00:12:36,898 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 00:35:29,419 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBDn n...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/thai-thi-nhi
+2019-08-10 00:35:29,419 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/thai-thi-nhi
+2019-08-10 00:35:29,419 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 00:45:47,768 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 00:45:47,768 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-11
+2019-08-10 01:00:39,381 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-thinh
+2019-08-10 01:00:39,381 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-thinh
+2019-08-10 01:00:39,381 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:11:17,516 [ERROR]- error :1366 (HY000): Incorrect string value: '\xE1\xBB\x91 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/cua-hang-duoc-so-3
+2019-08-10 01:11:17,516 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/cua-hang-duoc-so-3
+2019-08-10 01:11:17,516 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:24:50,848 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 11...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-kim-lien-10
+2019-08-10 01:24:50,848 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-kim-lien-10
+2019-08-10 01:24:50,848 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:24:52,551 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-hoan-quan-11
+2019-08-10 01:24:52,551 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-hoan-quan-11
+2019-08-10 01:24:52,551 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:25:41,487 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 13...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-quang-a
+2019-08-10 01:25:41,502 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-kim-quang-a
+2019-08-10 01:25:41,502 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:26:11,064 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 22...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-duc-hien
+2019-08-10 01:26:11,064 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-duc-hien
+2019-08-10 01:26:11,064 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:26:48,078 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-thai-trang
+2019-08-10 01:26:48,078 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-thai-trang
+2019-08-10 01:26:48,078 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:26:52,235 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 11...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-xuan-thu
+2019-08-10 01:26:52,235 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-xuan-thu
+2019-08-10 01:26:52,235 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:26:52,672 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 13...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-bac-kim-thuy
+2019-08-10 01:26:52,672 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-bac-kim-thuy
+2019-08-10 01:26:52,672 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:26:54,000 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-hong-phat
+2019-08-10 01:26:54,000 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-hong-phat
+2019-08-10 01:26:54,000 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:27:09,328 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tn-kinh-doanh-vang-kim-mai
+2019-08-10 01:27:09,328 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tn-kinh-doanh-vang-kim-mai
+2019-08-10 01:27:09,328 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:27:10,187 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-ngoc-ha-quan-11
+2019-08-10 01:27:10,187 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-ngoc-ha-quan-11
+2019-08-10 01:27:10,187 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:27:13,187 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-hoang-vinh
+2019-08-10 01:27:13,187 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-hoang-vinh
+2019-08-10 01:27:13,187 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:27:13,672 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 21...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-ngoc-khanh-quan-11
+2019-08-10 01:27:13,672 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/doanh-nghiep-tu-nhan-kinh-doanh-vang-ngoc-khanh-quan-11
+2019-08-10 01:27:13,672 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 01:29:26,808 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 13...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-ngoc-son-quan-11
+2019-08-10 01:29:26,808 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-kinh-doanh-vang-ngoc-son-quan-11
+2019-08-10 01:29:26,808 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 02:18:10,288 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 02:18:10,288 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-6
+2019-08-10 02:59:08,242 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 32...' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/htx-van-tai-so-10-quan-6
+2019-08-10 02:59:08,242 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/htx-van-tai-so-10-quan-6
+2019-08-10 02:59:08,242 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 03:02:44,568 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBDa' for column 'phone_number' at row 1-url :https://ho-chi-minh.congtydoanhnghiep.com/dntn-thuong-mai-truong-truong-thanh
+2019-08-10 03:02:44,568 [WARNING]- unique_together :https://ho-chi-minh.congtydoanhnghiep.com/dntn-thuong-mai-truong-truong-thanh
+2019-08-10 03:02:44,568 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 03:45:07,123 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 03:45:07,123 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/quan-4
+2019-08-10 04:51:55,558 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 04:51:55,558 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/huyen-cu-chi
+2019-08-10 05:49:32,166 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 05:49:32,166 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/huyen-nha-be
+2019-08-10 06:30:06,609 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 06:30:06,609 [INFO]- contry_href :https://ho-chi-minh.congtydoanhnghiep.com/huyen-can-gio
+2019-08-10 06:40:51,486 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 06:40:51,954 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-dong-da
+2019-08-10 08:38:56,341 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 35...' for column 'phone_number' at row 1-url :https://ha-noi.congtydoanhnghiep.com/bdh-da-dtu-xd-cong-trinh-xd-ttam-xuc-tien-tm-dt-ho-tro-dn-nghe-an-va-cac-tinh-bac-mien-trung-gd-i
+2019-08-10 08:38:56,341 [WARNING]- unique_together :https://ha-noi.congtydoanhnghiep.com/bdh-da-dtu-xd-cong-trinh-xd-ttam-xuc-tien-tm-dt-ho-tro-dn-nghe-an-va-cac-tinh-bac-mien-trung-gd-i
+2019-08-10 08:38:56,341 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 11:58:57,587 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 11:58:57,587 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-cau-giay
+2019-08-10 13:57:53,876 [ERROR]- error :1366 (HY000): Incorrect string value: '\xEF\xBF\xBD 09...' for column 'phone_number' at row 1-url :https://ha-noi.congtydoanhnghiep.com/cong-ty-co-phan-noi-that-va-xay-dung-thien-kiet
+2019-08-10 13:57:53,876 [WARNING]- unique_together :https://ha-noi.congtydoanhnghiep.com/cong-ty-co-phan-noi-that-va-xay-dung-thien-kiet
+2019-08-10 13:57:53,876 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 15:25:17,349 [ERROR]- error :HTTP Error 404: Not Found-url :https://ha-noi.congtydoanhnghiep.com/cong-ty-tnhh-dau-tu-thuong-mai-va-dich-vu-phong-phu
+2019-08-10 16:58:09,659 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 16:58:09,659 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-thanh-xuan
+2019-08-10 20:55:36,622 [ERROR]- error :1366 (HY000): Incorrect string value: '\xC4\x90\xE1\xBB\x8Bt...' for column 'phone_number' at row 1-url :https://ha-noi.congtydoanhnghiep.com/trung-tam-dich-vu-va-phat-trien-cong-nghe-nguyen-thi-thu-thuong
+2019-08-10 20:55:36,622 [WARNING]- unique_together :https://ha-noi.congtydoanhnghiep.com/trung-tam-dich-vu-va-phat-trien-cong-nghe-nguyen-thi-thu-thuong
+2019-08-10 20:55:36,622 [ERROR]- 1146 (42S02): Table 'companies.companies_companybranch' doesn't exist
+2019-08-10 20:56:09,717 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-10 20:56:09,717 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hoang-mai
+2019-08-10 21:56:46,475 [ERROR]- error :<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>-url :https://ha-noi.congtydoanhnghiep.com/cong-ty-cp-xay-dung-va-phat-trien-moi-truong-sinh-thai-truong-giang
+2019-08-10 22:55:42,956 [ERROR]- error :<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>-url :https://ha-noi.congtydoanhnghiep.com/cong-ty-co-phan-truyen-thong-an-sinh-viet
+2019-08-10 22:56:40,970 [WARNING]- [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond, retrying in 60 seconds...
+2019-08-12 13:44:18,544 [INFO]- ========RUN CRAWL DATA=========
+2019-08-12 13:44:18,607 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-12 13:44:19,224 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hoang-mai
+2019-08-12 14:43:14,220 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-12 14:43:14,220 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hai-ba-trung
+2019-08-13 09:44:34,986 [INFO]- ========RUN CRAWL DATA=========
+2019-08-13 09:44:37,097 [ERROR]- no connection :2003 (HY000): Can't connect to MySQL server on 'localhost' (10061)
+2019-08-13 09:46:45,419 [INFO]- ========RUN CRAWL DATA=========
+2019-08-13 09:46:45,435 [INFO]- Connected to MySQL database... MySQL Server version on 5.7.26
+2019-08-13 09:46:45,872 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-hai-ba-trung
+2019-08-13 10:42:30,698 [INFO]- HTTP Error 502: Bad Gateway
+2019-08-13 10:42:30,700 [INFO]- contry_href :https://ha-noi.congtydoanhnghiep.com/quan-ba-dinh
