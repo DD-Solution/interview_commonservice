@@ -1,6 +1,6 @@
 CITY = [
     (1, 'An Giang'),
-    (2, 'Bà Rịa-Vũng Tàu'),
+    (2, 'Bà Rịa - Vũng Tàu'),
     (3, 'Bạc Liêu'),
     (4, 'Bắc Kạn'),
     (5, 'Bắc Giang'),
