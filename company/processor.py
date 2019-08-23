@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-import sys, csv, logging
+import sys, csv, logging, requests
 import mysql.connector
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 from retry import retry
+import urllib3
+from urllib3.exceptions import InsecureRequestWarning
+
 
 def getLogging():
     LOG_FORMAT = "%(asctime)s [%(levelname)s]- %(message)s"
@@ -16,7 +19,7 @@ def getLogging():
 # @retry(TimeoutError,tries=3, delay=60, logger=getLogging())
 def converterHtml(link):
     req = Request(link, headers={'User-Agent': 'Mozilla/5.0'})
-    page = urlopen(req).read()
+    page = urlopen(req, timeout=120).read()
     soup_html = BeautifulSoup(page, 'html.parser')
     return soup_html
 
@@ -39,6 +42,21 @@ def readFile():
     for row in table:
         reader.append(row)
     return reader
+
+def gethtml (url) : 
+    logger = getLogging()
+    i = 0 
+    while i < 3 : 
+        try : 
+            urllib3.disable_warnings(category=InsecureRequestWarning)
+            html = requests.get(url, timeout=120, verify=False) 
+            return html 
+        except requests.exceptions.Timeout as error:
+            logger.error('time retry :'+i)  
+            if i == 2:
+                writerPageError(url)
+                logger.error('processor :'+str(error)+'-url'+url) 
+            i += 1 
 
 def getConnection():
     connection = mysql.connector.connect(host="localhost",

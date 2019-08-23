@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-import sys, csv, logging, datetime, re
+import sys, csv, logging, datetime, re, requests
 import requests
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen,HTTPError
 from processor import (
-    readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile, joinSquence, writerPageError
+    readFile, writeFile, converterHtml, getConnection, getLogging, writerErrorFile,
+    joinSquence, writerPageError, gethtml
 )
 from constant import CITY
 import mysql.connector
@@ -12,8 +13,9 @@ from mysql.connector import Error, errors
 from mysql.connector import errorcode
 
 url = 'https://congtydoanhnghiep.com/'
-soup = converterHtml(url)
-list_city = soup.find('ul', class_='list-group').find_all('li',class_='list-group-item')
+content =requests.get(url)
+soup = BeautifulSoup(content.text, 'html.parser')
+list_city = soup.find('ul', class_='list-group').findAll('li',class_='list-group-item')
 logger = getLogging()
 logger.info('========RUN CRAWL DATA=========')
 regex = r'^[0-9\(\)\ /\+\-]*$'
@@ -52,7 +54,8 @@ try:
 
         # Get the county data of the city 
         city_href = tag_a.find('a').get('href')
-        soup_county = converterHtml(city_href)
+        content =requests.get(city_href)
+        soup_county = BeautifulSoup(content.text, 'html.parser')
         list_county = soup_county.find('ul', class_='list-group').find_all('li',class_='list-group-item')
 
         # check in which district
@@ -73,71 +76,78 @@ try:
             pageCount = pageWeb
             while pageCount > 0:
                 url_county = county_href +'/trang-%d'%(pageCount)
-                logger.info('3 :'+url_county)
+                # logger.info('3 :'+url_county)
                 try:
-                    soup = converterHtml(url_county)
+                    # soup = converterHtml(url_county)
+                    content = gethtml(url_county)
+                    soup = BeautifulSoup(content.text, 'html.parser')
                     pageCount = pageCount + 1
                     list_div = soup.find('div', class_='col-sm-8 table-striped').find_all('article')
                     writeFile(city_href,county_href,pageCount)
-                    for tag_div in list_div:
-                        try:
-                            url = tag_div.find('a').get('href')
-                            soup_url = converterHtml(url)
-                            information = soup_url.find('div', class_='row').find_all('table', class_='table last-left')
-                            name_company = soup_url.find('td').get_text()
-                            representative = information[0].text.split('Chủ sở hữu:')[1].split('\n')[0]
-                            tax_code = information[0].text.split('Mã số thuế:')[1].split('\n')[0].strip()
-                            address = information[1].find('td').get_text()
-                            status = information[2].find('td').text
-                            operate = information[2].find_all('td')[2].text
-                            date_operate = joinSquence(operate)
-                            try:
-                                company_type = information[3].text.split('Ngành nghề chính:')[1].split('Ngành nghề kinh doanh:')[0].replace('\n', '')
-                            except :
-                                company_type = None                          
-                            try:
-                                phone_regex = information[1].find_all('td')[1].text
-                                phone_number = re.search(regex,phone_regex).group()
-                            except :
-                                phone_number = None
-                            try:
-                            # insert data
-                                sql ="""insert into company(name, tax_code, company_type,
-                                        representative, date_operate, status, phone_number) 
-                                        values (%s,%s,%s,%s,%s,%s,%s)"""
-                                insert_tuple  = (name_company, tax_code, company_type,representative, date_operate, status, phone_number)
-                                cursor.execute(sql, insert_tuple)
-                                connection.commit()
-                                sql_branch = """insert into companybranch(city, address, crawl_url, company_id) 
-                                                values (%s, %s, %s, %s)"""
-                                cursor.execute(sql_branch,(city_index, address, url, cursor.lastrowid))
-                                connection.commit() 
-                            except errors.IntegrityError as error:
-                                try :
-                                    sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id) 
-                                                    select %s ,%s ,%s ,id from job_company where name = %s"""
-                                    cursor.execute(sql_branch,(city_index, address, url, name_company,))
-                                    connection.commit()
-                                except Error as error :
-                                    connection.rollback()
-                                    writerErrorFile(url,county_href,pageCount)
-                                    logger.error('4 :'+str(error)+'-'+url)
-                            except Exception as error :
-                                writerErrorFile(url,county_href,pageCount)                                
-                                logger.error('5 :error :'+str(error)+'-url :'+url)     
-                        except Exception as error:
-                            writerErrorFile(url,county_href,pageCount)
-                            logger.error('6 :error :'+str(error)+'-url :'+url)
-                except TimeoutError as error:
+                except requests.exceptions.Timeout as error:
                     writerPageError(url_county)
-                    logger.error('7 :'+str(error)+'-url'+url_county)
+                    logger.error('4 :'+str(error)+'-url'+url_county)
                     continue         
-                except HTTPError as error:
-                    logger.info('8 :'+str(error))     
-                    break                                 
+                # except HTTPError as error:
+                #     logger.info('5 :'+str(error))     
+                #     break                                 
                 except Exception as error:
-                    logger.error('9 :'+str(error))
-except Error as error:
+                    if content.status_code ==502:
+                        logger.info('502 Bad Gateway')
+                        break
+                    logger.error('6 :'+str(error))
+                    continue
+                for tag_div in list_div:
+                    try:
+                        url = tag_div.find('a').get('href')
+                        soup_url = converterHtml(url)
+                        information = soup_url.find('div', class_='row').find_all('table', class_='table last-left')
+                        name_company = soup_url.find('td').get_text()
+                        representative = information[0].text.split('Chủ sở hữu:')[1].split('\n')[0]
+                        tax_code = information[0].text.split('Mã số thuế:')[1].split('\n')[0].strip()
+                        address = information[1].find('td').get_text()
+                        status = information[2].find('td').text
+                        operate = information[2].find_all('td')[2].text
+                        date_operate = joinSquence(operate)
+                        try:
+                            company_type = information[3].text.split('Ngành nghề chính:')[1].split('Ngành nghề kinh doanh:')[0].replace('\n', '')
+                        except :
+                            company_type = None                          
+                        try:
+                            phone_regex = information[1].find_all('td')[1].text
+                            phone_number = re.search(regex,phone_regex).group()
+                        except :
+                            phone_number = None
+                    except Exception as error:
+                        writerErrorFile(url,county_href,pageCount-1)
+                        logger.error('7 :'+str(error)+'-url :'+url)
+                        continue
+                    try:        
+                    # insert data        
+                        sql ="""insert into company(name, tax_code, company_type,        
+                                representative, date_operate, status, phone_number)         
+                                values (%s,%s,%s,%s,%s,%s,%s)"""        
+                        insert_tuple  = (name_company, tax_code, company_type,representative, date_operate, status, phone_number)    
+                        cursor.execute(sql, insert_tuple)        
+                        connection.commit()        
+                        sql_branch = """insert into companybranch(city, address, crawl_url, company_id)         
+                                        values (%s, %s, %s, %s)"""        
+                        cursor.execute(sql_branch,(city_index, address, url, cursor.lastrowid))        
+                        connection.commit()         
+                    except errors.IntegrityError as error:        
+                        try :        
+                            sql_branch = """insert into companies_companybranch(city, address, crawl_url, company_id)         
+                                            select %s ,%s ,%s ,id from job_company where name = %s"""        
+                            cursor.execute(sql_branch,(city_index, address, url, name_company,))        
+                            connection.commit()        
+                        except Error as error :        
+                            connection.rollback()        
+                            writerErrorFile(url,county_href,pageCount-1)        
+                            logger.error('8 :'+str(error)+'-'+url)        
+                    except Exception as error :        
+                        writerErrorFile(url,county_href,pageCount-1)                                        
+                        logger.error('9 :'+str(error)+'- :'+url)         
+except Error as error:  
     logger.error('10 :no connection :'+str(error))
 except Exception as error:
     logger.error('11 :'+str(error))
@@ -146,4 +156,3 @@ finally:
         cursor.close()
         connection.close()
     logger.info('close the connection database\n')
-
