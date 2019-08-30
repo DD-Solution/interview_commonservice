@@ -36,7 +36,7 @@ while int(page_count) > 0:
     for details in first_group[cuont+1:len(first_group)]:
         job_body = details.find('a').get('href')
         # url_job = 'https://itviec.com'+job_body
-        url_job = 'https://itviec.com/it-jobs/php-developer-fullstack-cloud-devops-personify-incorporation-1202'
+        url_job = 'https://itviec.com/it-jobs/frontend-dev-html-angular-angularjs-mykaki-3937'
         # content =requests.get(url_job)    
         # soup = BeautifulSoup(content.text, 'html.parser')
         page = urlopen(url_job, timeout=120)
@@ -87,11 +87,11 @@ while int(page_count) > 0:
             try:
                 insertJobCompany(title,thumb,str(description),str(requirement),why_youll_love,create_date,posted_date,
                                  url_job,company_name,basic_info,product_type,employees_numbers,
-                                 country,working_date,overtime,url_company)
+                                 country,working_date,overtime,url_company,page_count)
             except Exception as error:
-                logger.error('2 :'+str(error)+'-'+url_job)
+                logger.error('crawl-2 :'+str(error)+'-'+url_job)
             writeFile(url_job,page_count-1)
         except Exception as error:
-            logger.error('3 :'+str(error)+'-'+url_job)
+            logger.error('crawl-3 :'+str(error)+'-'+url_job)
             writerErrorFile(url_job,page_count-1)
         

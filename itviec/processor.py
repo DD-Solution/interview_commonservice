@@ -58,13 +58,13 @@ def readFile():
 
 def insertJobCompany(title,thumb,description,requirement,why_youll_love,create_date,
                      posted_date,url_job,company_name,basic_info,product_type,
-                     employees_numbers,country,working_date,overtime,url_company):
+                     employees_numbers,country,working_date,overtime,url_company,page_count):
     logger = getLogging()
     try :
         connection = getConnection()
         cursor = connection.cursor()
         try:
-            sql = """insert into job_company(crawl_source,title,thumb,description,requirement,why_youll_love,
+            insert_sql = """insert into job_company(crawl_source,title,thumb,description,requirement,why_youll_love,
              create_date,posted_date,url_job,company_name,basic_info,product_type,employees_numbers,
              country,working_date,overtime,url_company) 
              values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
@@ -72,13 +72,26 @@ def insertJobCompany(title,thumb,description,requirement,why_youll_love,create_d
             insert_tuple = ('itviec',title,thumb,description,requirement,why_youll_love,create_date,posted_date,
                         url_job,company_name,basic_info,product_type,employees_numbers,
                         country,working_date,overtime,url_company)
-
-            cursor.execute(sql, insert_tuple)        
+            cursor.execute(insert_sql, insert_tuple)        
             connection.commit()  
         except Exception as error:
-            logger.error('5 :'+str(error)+'-'+url_job)
+            try:
+                update_sql = """update job_company set title=%s,thumb=%s,description=%s,requirement=%s,why_youll_love=%s,
+             create_date=%s,posted_date=%s,company_name=%s,basic_info=%s,product_type=%s,employees_numbers=%s,
+             country=%s,working_date=%s,overtime=%s,url_company=%s where url_job=%s"""
+                insert_tuple = (title,thumb,description,requirement,why_youll_love,create_date,posted_date,
+                        company_name,basic_info,product_type,employees_numbers,
+                        country,working_date,overtime,url_company,url_job)
+                cursor.execute(update_sql, insert_tuple)        
+                connection.commit() 
+            except mysql.connector.Error as error:
+                logger.error('processor-3 :'+str(error)+'-'+url_job)
+                writerErrorFile(url_job,page_count-1)
+            except Exception as error:
+                logger.error('processor-4 :'+str(error)+'-'+url_job)
+            logger.error('processor-5 :'+str(error)+'-'+url_job)
     except Exception as error:
-        logger.error('6 :no connection :'+str(error))
+        logger.error('processor-6 :no connection :'+str(error))
 
 
     
