@@ -32,8 +32,9 @@ def getConnection():
                                          port=3306, 
                                          user="root", 
                                          db="job_company",
-                                         password="1234", 
-                                         charset="utf8" )
+                                         password="")
+                                        #  charset="utf8mb4" ,
+                                        #  COLLATE= "utf8mb4_unicode_ci")
     return connection
 
 def writeFile(job_href, pageCount):
@@ -89,7 +90,7 @@ def insertJobCompany(title,thumb,description,requirement,why_youll_love,create_d
                 writerErrorFile(url_job,page_count-1)
             except Exception as error:
                 logger.error('processor-4 :'+str(error)+'-'+url_job)
-            logger.error('processor-5 :'+str(error)+'-'+url_job)
+                writerErrorFile(url_job,page_count-1)
     except Exception as error:
         logger.error('processor-6 :no connection :'+str(error))
 

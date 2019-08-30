@@ -36,7 +36,7 @@ while int(page_count) > 0:
     for details in first_group[cuont+1:len(first_group)]:
         job_body = details.find('a').get('href')
         # url_job = 'https://itviec.com'+job_body
-        url_job = 'https://itviec.com/it-jobs/frontend-dev-html-angular-angularjs-mykaki-3937'
+        url_job = 'https://itviec.com/it-jobs/voip-systems-administrator-personify-incorporation-2614'
         # content =requests.get(url_job)    
         # soup = BeautifulSoup(content.text, 'html.parser')
         page = urlopen(url_job, timeout=120)

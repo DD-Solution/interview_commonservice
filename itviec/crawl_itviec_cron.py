@@ -13,7 +13,7 @@ import time
 def crawl_schedule():
     create_date = datetime.now()
     logger = getLogging()
-    logger.info('======== RUN CRAWL DATA-'+str(create_date)+' =========')
+    logger.info('\n======== RUN CRAWL DATA-'+str(create_date)+' =========')
     # if readFile():
     #     job_url_file = readFile()[0][0]
     #     page_count = readFile()[0][1]
@@ -30,12 +30,12 @@ def crawl_schedule():
         if first_group == []:
             break
         # check url job    
-        for i in range(0,len(first_group)):
-            url_check = 'https://itviec.com'+first_group[i].find('a').get('href')
-            # if url_check == job_url_file: 
-            #     cuont = i 
-            #     break
-            # else : cuont = 0
+        # for i in range(0,len(first_group)):
+        #     url_check = 'https://itviec.com'+first_group[i].find('a').get('href')
+        #     if url_check == job_url_file: 
+        #         cuont = i 
+        #         break
+        #     else : cuont = 0
 
         for details in first_group:
             job_body = details.find('a').get('href')
@@ -99,7 +99,8 @@ def crawl_schedule():
                 logger.error('crawl_crontab-3 :'+str(error)+'-'+url_job)
                 writerErrorFile(url_job,page_count-1)
             
-schedule.every().day.at("12:00").do(crawl_schedule) 
+schedule.every().day.at("10:00").do(crawl_schedule) 
+schedule.every().day.at("17:00").do(crawl_schedule)
 while True: 
     schedule.run_pending() 
     time.sleep(1) 
